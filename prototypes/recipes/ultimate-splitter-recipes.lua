@@ -12,7 +12,7 @@ data:extend(
       {"iron-gear-wheel", 10},
       {"advanced-circuit", 10}
     },
-    result = "ultra-fast-splitter",
+    results = "ultra-fast-splitter",
     requester_paste_multiplier = 4
   },
   
@@ -27,7 +27,7 @@ data:extend(
       {"iron-gear-wheel", 10},
       {"processing-unit", 5}
     },
-    result = "extreme-fast-splitter",
+    results = "extreme-fast-splitter",
     requester_paste_multiplier = 4
   },
   
@@ -43,7 +43,7 @@ data:extend(
       {"processing-unit", 5},
 	  {"speed-module", 1}
     },
-    result = "ultra-express-splitter",
+    results = "ultra-express-splitter",
     requester_paste_multiplier = 4
   },
   
@@ -59,7 +59,7 @@ data:extend(
       {"processing-unit", 5},
 	  {"speed-module-2", 1}
     },
-    result = "extreme-express-splitter",
+    results = "extreme-express-splitter",
     requester_paste_multiplier = 4
   },
   
@@ -75,7 +75,7 @@ data:extend(
       {"processing-unit", 5},
 	  {"speed-module-3", 1}
     },
-    result = "original-ultimate-splitter",
+    results = "original-ultimate-splitter",
     requester_paste_multiplier = 4
   }
   
