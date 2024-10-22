@@ -3,7 +3,7 @@
   {
     type = "item",
     name = "extreme-express-belt",
-    icon = "__UltimateBelts__/graphics/icons/extreme-express-belts/ultimate-transport-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/extreme-express-belts/ultimate-transport-belt.png",
     icon_size = 32,
     subgroup = "belt",
     order = "a[transport-belt]-g[extreme-express-belt]",
@@ -14,7 +14,7 @@
  {
     type = "transport-belt",
     name = "extreme-express-belt",
-    icon = "__UltimateBelts__/graphics/icons/extreme-express-belts/ultimate-transport-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/extreme-express-belts/ultimate-transport-belt.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.3, result = "extreme-express-belt"},
@@ -43,7 +43,7 @@
     {
       animation_set =
       {
-        filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/ultimate-transport-belt.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/ultimate-transport-belt.png",
         priority = "extra-high",
         width = 64,
         height = 64,
@@ -51,7 +51,7 @@
         direction_count = 20,
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/hr-ultimate-transport-belt.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/hr-ultimate-transport-belt.png",
           priority = "extra-high",
           width = 128,
           height = 128,

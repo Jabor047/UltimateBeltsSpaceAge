@@ -3,7 +3,7 @@
 {
     type = "item",
     name = "original-ultimate-splitter",
-    icon = "__UltimateBelts__/graphics/icons/ultimate-belts/ultimate-splitter.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultimate-belts/ultimate-splitter.png",
     icon_size = 32,
     subgroup = "belt",
     order = "c[splitter]-h[ultimate-splitter]",
@@ -13,7 +13,7 @@
 {
     type = "splitter",
     name = "original-ultimate-splitter",
-    icon = "__UltimateBelts__/graphics/icons/ultimate-belts/ultimate-splitter.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultimate-belts/ultimate-splitter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "original-ultimate-splitter"},
@@ -38,7 +38,7 @@
     {
       north =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultimate-belts/ultimate-splitter-north.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/ultimate-splitter-north.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -47,7 +47,7 @@
         shift = {0.265625, 0},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultimate-belts/hr-ultimate-splitter-north.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/hr-ultimate-splitter-north.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -59,7 +59,7 @@
       },
       east =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultimate-belts/ultimate-splitter-east.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/ultimate-splitter-east.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -68,7 +68,7 @@
         shift = {0.109375, -0.03125},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultimate-belts/hr-ultimate-splitter-east.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/hr-ultimate-splitter-east.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -80,7 +80,7 @@
       },
       south =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultimate-belts/ultimate-splitter-south.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/ultimate-splitter-south.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -89,7 +89,7 @@
         shift = {0.140625, -0.015625},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultimate-belts/hr-ultimate-splitter-south.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/hr-ultimate-splitter-south.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -101,7 +101,7 @@
       },
       west =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultimate-belts/ultimate-splitter-west.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/ultimate-splitter-west.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -110,7 +110,7 @@
         shift = {0.296875, -0.03125},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultimate-belts/hr-ultimate-splitter-west.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/hr-ultimate-splitter-west.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -127,7 +127,7 @@
   {
     type = "item",
     name = "ultra-fast-splitter",
-    icon = "__UltimateBelts__/graphics/icons/ultra-fast-belts/ultimate-splitter.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultra-fast-belts/ultimate-splitter.png",
     icon_size = 32,
     subgroup = "belt",
     order = "c[splitter]-d[ultra-fast-splitter]",
@@ -137,7 +137,7 @@
 {
     type = "splitter",
     name = "ultra-fast-splitter",
-    icon = "__UltimateBelts__/graphics/icons/ultra-fast-belts/ultimate-splitter.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultra-fast-belts/ultimate-splitter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "ultra-fast-splitter"},
@@ -162,7 +162,7 @@
     {
       north =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-splitter-north.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/ultimate-splitter-north.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -171,7 +171,7 @@
         shift = {0.265625, 0},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-splitter-north.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/hr-ultimate-splitter-north.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -183,7 +183,7 @@
       },
       east =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-splitter-east.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/ultimate-splitter-east.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -192,7 +192,7 @@
         shift = {0.109375, -0.03125},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-splitter-east.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/hr-ultimate-splitter-east.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -204,7 +204,7 @@
       },
       south =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-splitter-south.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/ultimate-splitter-south.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -213,7 +213,7 @@
         shift = {0.140625, -0.015625},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-splitter-south.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/hr-ultimate-splitter-south.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -225,7 +225,7 @@
       },
       west =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-splitter-west.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/ultimate-splitter-west.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -234,7 +234,7 @@
         shift = {0.296875, -0.03125},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-splitter-west.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/hr-ultimate-splitter-west.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -251,7 +251,7 @@
   {
     type = "item",
     name = "extreme-fast-splitter",
-    icon = "__UltimateBelts__/graphics/icons/extreme-fast-belts/ultimate-splitter.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/extreme-fast-belts/ultimate-splitter.png",
     icon_size = 32,
     subgroup = "belt",
     order = "c[splitter]-e[extreme-fast-splitter]",
@@ -261,7 +261,7 @@
 {
     type = "splitter",
     name = "extreme-fast-splitter",
-    icon = "__UltimateBelts__/graphics/icons/extreme-fast-belts/ultimate-splitter.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/extreme-fast-belts/ultimate-splitter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "extreme-fast-splitter"},
@@ -286,7 +286,7 @@
     {
       north =
       {
-        filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/ultimate-splitter-north.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/ultimate-splitter-north.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -295,7 +295,7 @@
         shift = {0.265625, 0},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/hr-ultimate-splitter-north.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/hr-ultimate-splitter-north.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -307,7 +307,7 @@
       },
       east =
       {
-        filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/ultimate-splitter-east.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/ultimate-splitter-east.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -316,7 +316,7 @@
         shift = {0.109375, -0.03125},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/hr-ultimate-splitter-east.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/hr-ultimate-splitter-east.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -328,7 +328,7 @@
       },
       south =
       {
-        filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/ultimate-splitter-south.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/ultimate-splitter-south.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -337,7 +337,7 @@
         shift = {0.140625, -0.015625},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/hr-ultimate-splitter-south.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/hr-ultimate-splitter-south.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -349,7 +349,7 @@
       },
       west =
       {
-        filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/ultimate-splitter-west.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/ultimate-splitter-west.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -358,7 +358,7 @@
         shift = {0.296875, -0.03125},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/hr-ultimate-splitter-west.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/hr-ultimate-splitter-west.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -375,7 +375,7 @@
   {
     type = "item",
     name = "ultra-express-splitter",
-    icon = "__UltimateBelts__/graphics/icons/ultra-express-belts/ultimate-splitter.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultra-express-belts/ultimate-splitter.png",
     icon_size = 32,
     subgroup = "belt",
     order = "c[splitter]-f[ultra-express-splitter]",
@@ -385,7 +385,7 @@
 {
     type = "splitter",
     name = "ultra-express-splitter",
-    icon = "__UltimateBelts__/graphics/icons/ultra-express-belts/ultimate-splitter.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultra-express-belts/ultimate-splitter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "ultra-express-splitter"},
@@ -410,7 +410,7 @@
     {
       north =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/ultimate-splitter-north.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/ultimate-splitter-north.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -419,7 +419,7 @@
         shift = {0.265625, 0},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/hr-ultimate-splitter-north.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/hr-ultimate-splitter-north.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -431,7 +431,7 @@
       },
       east =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/ultimate-splitter-east.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/ultimate-splitter-east.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -440,7 +440,7 @@
         shift = {0.109375, -0.03125},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/hr-ultimate-splitter-east.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/hr-ultimate-splitter-east.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -452,7 +452,7 @@
       },
       south =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/ultimate-splitter-south.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/ultimate-splitter-south.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -461,7 +461,7 @@
         shift = {0.140625, -0.015625},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/hr-ultimate-splitter-south.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/hr-ultimate-splitter-south.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -473,7 +473,7 @@
       },
       west =
       {
-        filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/ultimate-splitter-west.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/ultimate-splitter-west.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -482,7 +482,7 @@
         shift = {0.296875, -0.03125},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/hr-ultimate-splitter-west.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/hr-ultimate-splitter-west.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -499,7 +499,7 @@
   {
     type = "item",
     name = "extreme-express-splitter",
-    icon = "__UltimateBelts__/graphics/icons/extreme-express-belts/ultimate-splitter.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/extreme-express-belts/ultimate-splitter.png",
     icon_size = 32,
     subgroup = "belt",
     order = "c[splitter]-g[extreme-express-splitter]",
@@ -510,7 +510,7 @@
 {
     type = "splitter",
     name = "extreme-express-splitter",
-    icon = "__UltimateBelts__/graphics/icons/extreme-express-belts/ultimate-splitter.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/extreme-express-belts/ultimate-splitter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "extreme-express-splitter"},
@@ -535,7 +535,7 @@
     {
       north =
       {
-        filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/ultimate-splitter-north.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/ultimate-splitter-north.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -544,7 +544,7 @@
         shift = {0.265625, 0},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/hr-ultimate-splitter-north.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/hr-ultimate-splitter-north.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -556,7 +556,7 @@
       },
       east =
       {
-        filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/ultimate-splitter-east.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/ultimate-splitter-east.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -565,7 +565,7 @@
         shift = {0.109375, -0.03125},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/hr-ultimate-splitter-east.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/hr-ultimate-splitter-east.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -577,7 +577,7 @@
       },
       south =
       {
-        filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/ultimate-splitter-south.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/ultimate-splitter-south.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -586,7 +586,7 @@
         shift = {0.140625, -0.015625},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/hr-ultimate-splitter-south.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/hr-ultimate-splitter-south.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -598,7 +598,7 @@
       },
       west =
       {
-        filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/ultimate-splitter-west.png",
+        filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/ultimate-splitter-west.png",
         frame_count = 32,
         line_length = 16,
         priority = "extra-high",
@@ -607,7 +607,7 @@
         shift = {0.296875, -0.03125},
         hr_version =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/hr-ultimate-splitter-west.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/hr-ultimate-splitter-west.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",

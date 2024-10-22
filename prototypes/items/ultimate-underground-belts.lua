@@ -4,7 +4,7 @@ data:extend(
 {
     type = "item",
     name = "original-ultimate-underground-belt",
-    icon = "__UltimateBelts__/graphics/icons/ultimate-belts/ultimate-underground-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultimate-belts/ultimate-underground-belt.png",
     icon_size = 32,
     subgroup = "belt",
     order = "b[underground-belt]-h[ultimate-underground-belt]",
@@ -15,7 +15,7 @@ data:extend(
   {
     type = "underground-belt",
     name = "original-ultimate-underground-belt",
-    icon = "__UltimateBelts__/graphics/icons/ultimate-belts/ultimate-underground-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultimate-belts/ultimate-underground-belt.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "original-ultimate-underground-belt"},
@@ -63,7 +63,7 @@ data:extend(
       {
         sheet =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultimate-belts/ultimate-underground-belt.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/ultimate-underground-belt.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
@@ -71,7 +71,7 @@ data:extend(
           y = 43,
           hr_version =
           {
-            filename = "__UltimateBelts__/graphics/entity/ultimate-belts/hr-ultimate-underground-belt.png",
+            filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/hr-ultimate-underground-belt.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -85,14 +85,14 @@ data:extend(
       {
         sheet =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultimate-belts/ultimate-underground-belt.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/ultimate-underground-belt.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
           height = 43,
           hr_version =
           {
-            filename = "__UltimateBelts__/graphics/entity/ultimate-belts/hr-ultimate-underground-belt.png",
+            filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultimate-belts/hr-ultimate-underground-belt.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -110,7 +110,7 @@ data:extend(
   {
     type = "item",
     name = "ultra-fast-underground-belt",
-    icon = "__UltimateBelts__/graphics/icons/ultra-fast-belts/ultimate-underground-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultra-fast-belts/ultimate-underground-belt.png",
     icon_size = 32,
     subgroup = "belt",
     order = "b[underground-belt]-d[ultra-fast-underground-belt]",
@@ -121,7 +121,7 @@ data:extend(
   {
     type = "underground-belt",
     name = "ultra-fast-underground-belt",
-    icon = "__UltimateBelts__/graphics/icons/ultra-fast-belts/ultimate-underground-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultra-fast-belts/ultimate-underground-belt.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "ultra-fast-underground-belt"},
@@ -169,7 +169,7 @@ data:extend(
       {
         sheet =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-underground-belt.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/ultimate-underground-belt.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
@@ -177,7 +177,7 @@ data:extend(
           y = 43,
           hr_version =
           {
-            filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-underground-belt.png",
+            filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/hr-ultimate-underground-belt.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -191,14 +191,14 @@ data:extend(
       {
         sheet =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/ultimate-underground-belt.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/ultimate-underground-belt.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
           height = 43,
           hr_version =
           {
-            filename = "__UltimateBelts__/graphics/entity/ultra-fast-belts/hr-ultimate-underground-belt.png",
+            filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-fast-belts/hr-ultimate-underground-belt.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -216,7 +216,7 @@ data:extend(
   {
     type = "item",
     name = "extreme-fast-underground-belt",
-    icon = "__UltimateBelts__/graphics/icons/extreme-fast-belts/ultimate-underground-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/extreme-fast-belts/ultimate-underground-belt.png",
     icon_size = 32,
     subgroup = "belt",
     order = "b[underground-belt]-e[extreme-fast-underground-belt]",
@@ -227,7 +227,7 @@ data:extend(
   {
     type = "underground-belt",
     name = "extreme-fast-underground-belt",
-    icon = "__UltimateBelts__/graphics/icons/extreme-fast-belts/ultimate-underground-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/extreme-fast-belts/ultimate-underground-belt.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "extreme-fast-underground-belt"},
@@ -275,7 +275,7 @@ data:extend(
       {
         sheet =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/ultimate-underground-belt.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/ultimate-underground-belt.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
@@ -283,7 +283,7 @@ data:extend(
           y = 43,
           hr_version =
           {
-            filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/hr-ultimate-underground-belt.png",
+            filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/hr-ultimate-underground-belt.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -297,14 +297,14 @@ data:extend(
       {
         sheet =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/ultimate-underground-belt.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/ultimate-underground-belt.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
           height = 43,
           hr_version =
           {
-            filename = "__UltimateBelts__/graphics/entity/extreme-fast-belts/hr-ultimate-underground-belt.png",
+            filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-fast-belts/hr-ultimate-underground-belt.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -322,7 +322,7 @@ data:extend(
   {
     type = "item",
     name = "ultra-express-underground-belt",
-    icon = "__UltimateBelts__/graphics/icons/ultra-express-belts/ultimate-underground-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultra-express-belts/ultimate-underground-belt.png",
     icon_size = 32,
     subgroup = "belt",
     order = "b[underground-belt]-f[ultra-express-underground-belt]",
@@ -333,7 +333,7 @@ data:extend(
   {
     type = "underground-belt",
     name = "ultra-express-underground-belt",
-    icon = "__UltimateBelts__/graphics/icons/ultra-express-belts/ultimate-underground-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/ultra-express-belts/ultimate-underground-belt.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "ultra-express-underground-belt"},
@@ -381,7 +381,7 @@ data:extend(
       {
         sheet =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/ultimate-underground-belt.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/ultimate-underground-belt.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
@@ -389,7 +389,7 @@ data:extend(
           y = 43,
           hr_version =
           {
-            filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/hr-ultimate-underground-belt.png",
+            filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/hr-ultimate-underground-belt.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -403,14 +403,14 @@ data:extend(
       {
         sheet =
         {
-          filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/ultimate-underground-belt.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/ultimate-underground-belt.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
           height = 43,
           hr_version =
           {
-            filename = "__UltimateBelts__/graphics/entity/ultra-express-belts/hr-ultimate-underground-belt.png",
+            filename = "__UltimateBeltsSpaceAge__/graphics/entity/ultra-express-belts/hr-ultimate-underground-belt.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -428,7 +428,7 @@ data:extend(
   {
     type = "item",
     name = "extreme-express-underground-belt",
-    icon = "__UltimateBelts__/graphics/icons/extreme-express-belts/ultimate-underground-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/extreme-express-belts/ultimate-underground-belt.png",
     icon_size = 32,
     subgroup = "belt",
     order = "b[underground-belt]-g[extreme-express-underground-belt]",
@@ -439,7 +439,7 @@ data:extend(
   {
     type = "underground-belt",
     name = "extreme-express-underground-belt",
-    icon = "__UltimateBelts__/graphics/icons/extreme-express-belts/ultimate-underground-belt.png",
+    icon = "__UltimateBeltsSpaceAge__/graphics/icons/extreme-express-belts/ultimate-underground-belt.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "extreme-express-underground-belt"},
@@ -487,7 +487,7 @@ data:extend(
       {
         sheet =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/ultimate-underground-belt.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/ultimate-underground-belt.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
@@ -495,7 +495,7 @@ data:extend(
           y = 43,
           hr_version =
           {
-            filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/hr-ultimate-underground-belt.png",
+            filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/hr-ultimate-underground-belt.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,
@@ -509,14 +509,14 @@ data:extend(
       {
         sheet =
         {
-          filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/ultimate-underground-belt.png",
+          filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/ultimate-underground-belt.png",
           priority = "extra-high",
           shift = {0.25, 0},
           width = 57,
           height = 43,
           hr_version =
           {
-            filename = "__UltimateBelts__/graphics/entity/extreme-express-belts/hr-ultimate-underground-belt.png",
+            filename = "__UltimateBeltsSpaceAge__/graphics/entity/extreme-express-belts/hr-ultimate-underground-belt.png",
             priority = "extra-high",
             shift = {0.15625, 0.0703125},
             width = 106,

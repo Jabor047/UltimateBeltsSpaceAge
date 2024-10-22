@@ -7,8 +7,8 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"express-transport-belt", 2},
-      {"iron-gear-wheel", 10},
+      {type="item", name="express-transport-belt", amount=2},
+      {type="item", name="iron-gear-wheel", amount=10},
     },
     results = {{type="item", name="ultra-fast-belt", amount=1}},
     requester_paste_multiplier = 20
@@ -20,9 +20,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"ultra-fast-belt", 1},
-	  {"express-transport-belt", 1},
-      {"iron-gear-wheel", 10},
+      {type="item", name="ultra-fast-belt", amount=1},
+	    {type="item",name="express-transport-belt", amount=1},
+      {type="item", name="iron-gear-wheel", amount=10}
     },
     results = {{type="item", name="extreme-fast-belt", amount=1}},
     requester_paste_multiplier = 20
@@ -34,13 +34,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"extreme-fast-belt", 20},
-	  {"express-transport-belt", 20},
-      {"iron-gear-wheel", 200},
-	  {"speed-module", 1}
+      {type="item", name="extreme-fast-belt", amount=20},
+	    {type="item",name="express-transport-belt", amount=20},
+      {type="item", name="iron-gear-wheel", amount=200},
+	    {type="item", name="speed-module", amount=1}
     },
-	  result_count = 20,
-    results = {{type="item", name="ultra-express-belt", amount=1}},
+    results = {{type="item", name="ultra-express-belt", amount=20}},
     requester_paste_multiplier = 20
   },
   
@@ -50,13 +49,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"ultra-express-belt", 20},
-	  {"express-transport-belt", 20},
-      {"iron-gear-wheel", 200},
-	  {"speed-module-2", 1}
+      {type="item", name="ultra-express-belt", amount=20},
+      {type="item",name="express-transport-belt", amount=20},
+      {type="item", name="iron-gear-wheel", amount=200},
+      {type="item", name="speed-module-2", amount=1}
     },
-	  result_count = 20,
-    results = {{type="item", name="extreme-express-belt", amount=1}},
+    results = {{type="item", name="extreme-express-belt", amount=20}},
     requester_paste_multiplier = 20
   },
   
@@ -66,13 +64,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"extreme-express-belt", 20},
-	  {"express-transport-belt", 20},
-      {"iron-gear-wheel", 200},
-	  {"speed-module-3", 1}
+      {type="item", name="extreme-express-belt", amount=20},
+      {type="item",name="express-transport-belt", amount=20},
+      {type="item", name="iron-gear-wheel", amount=200},
+      {type="item", name="speed-module-3", amount=1}
     },
-	  result_count = 20,
-    results = {{type="item", name="ultimate-belt", amount=1}},
+    results = {{type="item", name="ultimate-belt", amount=20}},
     requester_paste_multiplier = 20
   },
   
