@@ -12,7 +12,7 @@ data:extend(
       {"express-underground-belt", 4}
     },
     result_count = 2,
-    results = "ultra-fast-underground-belt",
+    results = {{type="item", name="ultra-fast-underground-belt", amount=1}},
     requester_paste_multiplier = 20
   },
   
@@ -28,7 +28,7 @@ data:extend(
 	  {"ultra-fast-underground-belt", 2}
     },
     result_count = 2,
-    results = "extreme-fast-underground-belt",
+    results = {{type="item", name="extreme-fast-underground-belt", amount=1}},
     requester_paste_multiplier = 20
   },
   
@@ -45,7 +45,7 @@ data:extend(
 	  {"extreme-fast-underground-belt", 2}
     },
     result_count = 2,
-    results = "ultra-express-underground-belt",
+    results = {{type="item", name="ultra-express-underground-belt", amount=1}},
     requester_paste_multiplier = 20
   },
   
@@ -62,7 +62,7 @@ data:extend(
 	  {"ultra-express-underground-belt", 2}
     },
     result_count = 2,
-    results = "extreme-express-underground-belt",
+    results = {{type="item", name="extreme-express-underground-belt", amount=1}},
     requester_paste_multiplier = 20
   },
   
@@ -79,7 +79,7 @@ data:extend(
 	  {"extreme-express-underground-belt", 2}
     },
     result_count = 2,
-    results = "original-ultimate-underground-belt",
+    results = {{type="item", name="original-ultimate-underground-belt", amount=1}},
     requester_paste_multiplier = 20
   },
   

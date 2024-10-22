@@ -10,7 +10,7 @@ data:extend(
       {"express-transport-belt", 2},
       {"iron-gear-wheel", 10},
     },
-    results = "ultra-fast-belt",
+    results = {{type="item", name="ultra-fast-belt", amount=1}},
     requester_paste_multiplier = 20
   },
   
@@ -24,7 +24,7 @@ data:extend(
 	  {"express-transport-belt", 1},
       {"iron-gear-wheel", 10},
     },
-    results = "extreme-fast-belt",
+    results = {{type="item", name="extreme-fast-belt", amount=1}},
     requester_paste_multiplier = 20
   },
   
@@ -40,7 +40,7 @@ data:extend(
 	  {"speed-module", 1}
     },
 	  result_count = 20,
-    results = "ultra-express-belt",
+    results = {{type="item", name="ultra-express-belt", amount=1}},
     requester_paste_multiplier = 20
   },
   
@@ -56,7 +56,7 @@ data:extend(
 	  {"speed-module-2", 1}
     },
 	  result_count = 20,
-    results = "extreme-express-belt",
+    results = {{type="item", name="extreme-express-belt", amount=1}},
     requester_paste_multiplier = 20
   },
   
@@ -72,7 +72,7 @@ data:extend(
 	  {"speed-module-3", 1}
     },
 	  result_count = 20,
-    results = "ultimate-belt",
+    results = {{type="item", name="ultimate-belt", amount=1}},
     requester_paste_multiplier = 20
   },
   
