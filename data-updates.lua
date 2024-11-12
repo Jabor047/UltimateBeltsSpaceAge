@@ -1,12 +1,11 @@
 --Remove production science pack requirement from logistics 3. Makes belts somewhat viable compared to bots for mid-game (using bob's mods ofc).
-data.raw["technology"]["logistics-3"].unit.ingredients =
-     {
-       {"automation-science-pack", 1},
-       {"logistic-science-pack", 1},
-       {"chemical-science-pack", 1},
-     }
+data.raw["technology"]["logistics-3"].unit.ingredients = {
+  {"automation-science-pack", 1},
+  {"logistic-science-pack", 1},
+  {"chemical-science-pack", 1},
+}
 
--- make belts/splitters upgrade'able
+-- делаем апгрейды для конвейеров и разветвителей
 data.raw["transport-belt"]["express-transport-belt"].next_upgrade = "ultra-fast-belt"
 data.raw["transport-belt"]["ultra-fast-belt"].next_upgrade = "extreme-fast-belt"
 data.raw["transport-belt"]["extreme-fast-belt"].next_upgrade = "ultra-express-belt"
@@ -35,17 +34,18 @@ if deadlock then
     technology          = "ultra-fast-logistics",
     order               = "f",
     loader_ingredients  = {
-      {"express-transport-belt-loader",1},
-      {"iron-gear-wheel",40},
+      {type = "item", name = "express-transport-belt-loader", amount = 1},
+      {type = "item", name = "iron-gear-wheel", amount = 40},
     },
     beltbox_ingredients = {
-      {"express-transport-belt-beltbox",1},
-      {"steel-plate",40},
-      {"iron-gear-wheel",40},
-      {"processing-unit",5},
+      {type = "item", name = "express-transport-belt-beltbox", amount = 1},
+      {type = "item", name = "steel-plate", amount = 40},
+      {type = "item", name = "iron-gear-wheel", amount = 40},
+      {type = "item", name = "processing-unit", amount = 5},
     },
   })
-  -- hook in the lower tier's upgrade.  If Bob's belts are loaded attach to those, otherwise attach to express
+  
+  -- hook in the lower tier's upgrade
   if data.raw.furnace["ultra-fast-belt-beltbox"] then
     if data.raw.furnace["ultimate-transport-belt-beltbox"] then
       data.raw.furnace["ultimate-transport-belt-beltbox"].next_upgrade = "ultra-fast-belt-beltbox"
@@ -70,15 +70,16 @@ if deadlock then
     technology          = "extreme-fast-logistics",
     order               = "g",
     loader_ingredients  = {
-      {"ultra-fast-belt-loader",1},
-      {"iron-gear-wheel",20},
-      {"electronic-circuit",5},
+      {type = "item", name = "ultra-fast-belt-loader", amount = 1},
+      {type = "item", name = "iron-gear-wheel", amount = 20},
+      {type = "item", name = "electronic-circuit", amount = 5},
     },
     beltbox_ingredients = {
-      {"ultra-fast-belt-beltbox",1},
-      {"processing-unit",10},
+      {type = "item", name = "ultra-fast-belt-beltbox", amount = 1},
+      {type = "item", name = "processing-unit", amount = 10},
     },
   })
+  
   if data.raw.furnace["extreme-fast-belt-beltbox"] then
     data.raw.furnace["ultra-fast-belt-beltbox"].next_upgrade = "extreme-fast-belt-beltbox"
   end
@@ -95,14 +96,15 @@ if deadlock then
     technology          = "ultra-express-logistics",
     order               = "h",
     loader_ingredients  = {
-      {"extreme-fast-belt-loader",1},
-      {"advanced-circuit",10},
+      {type = "item", name = "extreme-fast-belt-loader", amount = 1},
+      {type = "item", name = "advanced-circuit", amount = 10},
     },
     beltbox_ingredients = {
-      {"extreme-fast-belt-beltbox",1},
-      {"speed-module",5},
+      {type = "item", name = "extreme-fast-belt-beltbox", amount = 1},
+      {type = "item", name = "speed-module", amount = 5},
     },
   })
+  
   if data.raw.furnace["ultra-express-belt-beltbox"] then
     data.raw.furnace["extreme-fast-belt-beltbox"].next_upgrade = "ultra-express-belt-beltbox"
   end
@@ -119,14 +121,15 @@ if deadlock then
     technology          = "extreme-express-logistics",
     order               = "i",
     loader_ingredients  = {
-      {"ultra-express-belt-loader",1},
-      {"processing-unit",10},
+      {type = "item", name = "ultra-express-belt-loader", amount = 1},
+      {type = "item", name = "processing-unit", amount = 10},
     },
     beltbox_ingredients = {
-      {"ultra-express-belt-beltbox",1},
-      {"speed-module-2",5},
+      {type = "item", name = "ultra-express-belt-beltbox", amount = 1},
+      {type = "item", name = "speed-module-2", amount = 5},
     },
   })
+  
   if data.raw.furnace["extreme-express-belt-beltbox"] then
     data.raw.furnace["ultra-express-belt-beltbox"].next_upgrade = "extreme-express-belt-beltbox"
   end
@@ -143,14 +146,15 @@ if deadlock then
     technology          = "ultimate-logistics",
     order               = "j",
     loader_ingredients  = {
-      {"extreme-express-belt-loader",1},
-      {"speed-module-3",3},
+      {type = "item", name = "extreme-express-belt-loader", amount = 1},
+      {type = "item", name = "speed-module-3", amount = 3},
     },
     beltbox_ingredients = {
-      {"extreme-express-belt-beltbox",1},
-      {"speed-module-3",5},
+      {type = "item", name = "extreme-express-belt-beltbox", amount = 1},
+      {type = "item", name = "speed-module-3", amount = 5},
     },
   })
+  
   if data.raw.furnace["ultimate-belt-beltbox"] then
     data.raw.furnace["extreme-express-belt-beltbox"].next_upgrade = "ultimate-belt-beltbox"
   end
