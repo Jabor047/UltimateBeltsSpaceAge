@@ -24,6 +24,13 @@ data.raw["splitter"]["extreme-fast-splitter"].next_upgrade = "ultra-express-spli
 data.raw["splitter"]["ultra-express-splitter"].next_upgrade = "extreme-express-splitter"
 data.raw["splitter"]["extreme-express-splitter"].next_upgrade = "original-ultimate-splitter"
 
+-- make belts able to be automatically replaced with underground belts.
+data.raw["transport-belt"]["ultra-fast-belt"].related_underground_belt="ultra-fast-underground-belt"
+data.raw["transport-belt"]["extreme-fast-belt"].related_underground_belt="extreme-fast-underground-belt"
+data.raw["transport-belt"]["ultra-express-belt"].related_underground_belt="ultra-express-underground-belt"
+data.raw["transport-belt"]["extreme-express-belt"].related_underground_belt="extreme-express-underground-belt"
+data.raw["transport-belt"]["ultimate-belt"].related_underground_belt="original-ultimate-underground-belt"
+
 if deadlock then
   --t1
   deadlock.add_tier({
